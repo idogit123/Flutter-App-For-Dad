@@ -9,6 +9,7 @@ import 'pages/employ/employ.dart';
 import 'pages/manager/welcome.dart';
 import 'pages/manager/signin.dart';
 import 'pages/manager/login.dart';
+import 'pages/manager/manager.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: EmployMainPage(),
+      home: ManagerMainPage(),
     );
   }
 }
